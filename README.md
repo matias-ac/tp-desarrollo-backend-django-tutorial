@@ -56,19 +56,18 @@ En el apartado INSTALLED_APPS, agrega las nuevas apps:
 
 ```python
 INSTALLED_APPS = [
+  #Apps de Django por defecto
+  'django.contrib.admin',
+  'django.contrib.auth',
+  'django.contrib.contenttypes',
+  'django.contrib.sessions',
+  'django.contrib.messages',
+  'django.contrib.staticfiles',
 
-#Apps de Django por defecto
-'django.contrib.admin',
-'django.contrib.auth',
-'django.contrib.contenttypes',
-'django.contrib.sessions',
-'django.contrib.messages',
-'django.contrib.staticfiles',
-
-#Nuevas apps
-'alumno',
-'profesor',
-'cursada',
+  #Nuevas apps
+  'alumno',
+  'profesor',
+  'cursada',
 ]
 ```
 
